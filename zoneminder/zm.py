@@ -54,7 +54,7 @@ class ZoneMinder:
             urljoin(self._server_url, "api/host/login.json"),
             data=login_post,
             verify=self._verify_ssl,
-            timeout=ZoneMinder.DEFAULT_TIMEOUT
+            timeout=ZoneMinder.DEFAULT_TIMEOUT,
         )
         if req.ok:
             try:
@@ -77,7 +77,7 @@ class ZoneMinder:
             urljoin(self._server_url, "index.php"),
             data=login_post,
             verify=self._verify_ssl,
-            timeout=ZoneMinder.DEFAULT_TIMEOUT
+            timeout=ZoneMinder.DEFAULT_TIMEOUT,
         )
         self._cookies = req.cookies
 
