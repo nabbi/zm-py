@@ -1,7 +1,10 @@
+"""Setuptools for zm-py"""
 from setuptools import setup, find_packages
+import pathlib
 
+here = pathlib.Path(__file__).parent.resolve()
 
-long_description = open('README.md').read()
+long_description = (here / 'README.md').read_text(encoding="utf-8")
 
 setup(
     name='zm-py',
@@ -17,7 +20,8 @@ setup(
     zip_safe=False,
     include_package_data=True,
     platforms='any',
-    install_requires=list(val.strip() for val in open('requirements.txt')),
+    #install_requires=list(val.strip() for val in (here / 'requirements.txt').read_text(encoding="utf-8")),
+    install_requires=["requests"],
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
