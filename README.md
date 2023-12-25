@@ -2,6 +2,8 @@
 
 A loose Python wrapper of [ZoneMinder](https://www.zoneminder.org)'s API for the [Home Assistant Integration](https://www.home-assistant.io/integrations/zoneminder/)
 
+[![image](https://badge.fury.io/py/zmha-py.svg)](https://badge.fury.io/py/zmha-py/)
+
 [![Python package](https://github.com/nabbi/zmha-py/actions/workflows/python-tox.yml/badge.svg)](https://github.com/nabbi/zmha-py/actions/workflows/python-tox.yml)
 
 
