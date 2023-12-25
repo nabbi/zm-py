@@ -1,16 +1,19 @@
-# Zm-py
+# ZMHA-Py
 
-[![image](https://badge.fury.io/py/zm-py.svg)](https://badge.fury.io/py/zm-py/)
+A loose Python wrapper of [ZoneMinder](https://www.zoneminder.org)'s API for the [Home Assistant Integration](https://www.home-assistant.io/integrations/zoneminder/)
 
-[![image](https://travis-ci.org/rohankapoorcom/zm-py.svg?branch=master)](https://travis-ci.org/rohankapoorcom/zm-py)
+[![Python package](https://github.com/nabbi/zmha-py/actions/workflows/python-tox.yml/badge.svg)](https://github.com/nabbi/zmha-py/actions/workflows/python-tox.yml)
 
-[![image](https://img.shields.io/pypi/pyversions/zm-py.svg)](https://pypi.python.org/pypi/zm-py)
 
-[![license](https://img.shields.io/github/license/rohankapoorcom/zm-py.svg?style=flat-square)](https://github.com/rohankapoorcom/zm-py/blob/master/LICENSE.md)
+## Acknowledgments
 
-A loose python wrapper around the [ZoneMinder](https://www.zoneminder.org) API. As time goes on additional functionality will be added to this API client.
+[zmha-py](https://github.com/nabbi/zmha-py) forked from [rohankapoorcom/zm-py](https://github.com/rohankapoorcom/zm-py) latest release [0.5.2](https://pypi.org/project/zm-py/) Oct 17, 2020.
+The goal is to restore Home Assistant functionality with the current ZoneMinder 1.36 deployments by providing bug fixes and refactoring with upstream's API changes.
 
-zm-py is based on code that was originally part of [Home Assistant](https://www.home-assistant.io). Historical sources and authorship information is available as part of the Home Assistant project:
+zm-py is based on code that was originally part of [Home Assistant](https://www.home-assistant.io).
+As time goes on additional functionality will be added to this API client.
+
+Historical sources and authorship information is available as part of the Home Assistant project:
 
 - [ZoneMinder Platform](https://github.com/home-assistant/home-assistant/commits/dev/homeassistant/components/zoneminder.py)
 - [ZoneMinder Camera](https://github.com/home-assistant/home-assistant/commits/dev/homeassistant/components/camera/zoneminder.py)
@@ -22,7 +25,7 @@ zm-py is based on code that was originally part of [Home Assistant](https://www.
 ### PyPI
 
 ```bash
-$ pip install zm-py
+$ pip install zmha-py
 ```
 
 ## Usage
