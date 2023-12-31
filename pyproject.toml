@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "zmha-py"
-version = "0.5.3-2"
+version = "0.5.3-4"
 description = ""
 authors = ["Nic Boet <nic@boet.cc>", "Rohan Kapoor <rohan@rohankapoor.com>"]
 license = "Apache-2.0"
