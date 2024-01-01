@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "zmha-py"
 version = "0.5.3-4"
-description = ""
+description = "A loose python wrapper around the ZoneMinder REST API."
 authors = ["Nic Boet <nic@boet.cc>", "Rohan Kapoor <rohan@rohankapoor.com>"]
 license = "Apache-2.0"
 
@@ -9,6 +9,16 @@ readme = "README.md"
 
 homepage = "https://github.com/nabbi/zmha-py"
 repository = "https://github.com/nabbi/zmha-py"
+
+classifiers= [
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: Apache Software License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Home Automation'
+]
 
 packages = [
     {include = "zoneminder"},
